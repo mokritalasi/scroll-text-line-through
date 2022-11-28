@@ -1,0 +1,32 @@
+.invisibleScrollbars::-webkit-scrollbar {
+	display: none;
+}
+
+.blogContainer {
+	width: 400px;
+	height: 400px;
+	overflow: scroll;
+	margin: auto;
+	margin-top: 100px;
+	/* padding: 100px 15px; */
+	padding: 0 15px;
+	background-color: rgba(224, 224, 224, 0.5);
+}
+
+.paragraphText {
+	font-size: 16px;
+	/* line-height: 16px; */
+}
+
+#crossedOut {
+	position: absolute;
+	background-color: #ccff00;
+	top: 25%;
+	width: inherit;
+	height: 30px;
+	z-index: -1;
+}
+
+.strikeThrough {
+	text-decoration: line-through;
+}
